@@ -13,8 +13,7 @@ public class Poweroffour {
         if(n==1){
             return true;
         }
-        int x=0;
-        double res=0;
+        double res;
         if(n>0){
             for(double i=1;i<n;i++){
                 res=Math.pow(4,i);
