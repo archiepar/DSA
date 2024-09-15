@@ -9,7 +9,7 @@ public class NumPalindrome {
 
     static int reverseNum(int n){
         int original=n;
-        int rem=0;
+        int rem;
         int numrev=0;
         while(original>0){
             rem=original%10;
