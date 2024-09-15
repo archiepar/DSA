@@ -1,6 +1,6 @@
 
 import java.util.Scanner;
-public class Largest {
+public class Largest3 {
 
     public static int maxim(int a,int b){
         if(a>b){
