@@ -18,10 +18,11 @@ public class ArmstrongNum {
     //ArmStrong number is when the sum of cubes of individual digits of a number is the number itself 
     static boolean checkArmstrong(int n){
         int original=n;
-        int sum=0;
+        double sum=0;
+        int count=Integer.toString(n).length();
         while(n>0){
             int remainder=n%10;
-            int cube=(remainder*remainder*remainder);
+            double cube=Math.pow(remainder,count);
             sum=sum+cube;
             n=n/10;
         }
