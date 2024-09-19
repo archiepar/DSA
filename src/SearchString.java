@@ -7,7 +7,7 @@ public class SearchString{
             System.out.println("Enter the character to search : ");
             char b=sc.next().trim().charAt(0);
             System.out.println("The desired character is at the index : "+charSearch(a, b));
-
+            //MAIN
         }
     }
     static int charSearch(String a,char b){
