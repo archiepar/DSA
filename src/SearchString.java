@@ -11,7 +11,7 @@ public class SearchString{
         }
     }
     static int charSearch(String a,char b){
-        if(a.length()==0){
+        if(a.length()==0){//search fr char
             return -1;
         }
         for(int i=0;i<a.length();i++){
